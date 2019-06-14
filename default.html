@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Interactive Table - Ahmed Adnan Tariq</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+	
+		<script type="text/javascript" src="js/iscroll5.js"></script>
+		<script type="text/javascript" src="js/Accordian.js"></script>
+		<script type="text/javascript" src="js/legend.js"></script>
+		<script type="text/javascript" src="js/_justVariable.js"></script>
+
+		
+		<link rel="stylesheet" type="text/css" href="css/reset-1.0.css">
+		<link rel="stylesheet" type="text/css" href="css/global.css">
+		<link rel="stylesheet" type="text/css" href="css/Legend.css">
+		<link rel="stylesheet" type="text/css" href="css/LegendPhase2.css">
+		<link rel="stylesheet" type="text/css" href="css/EliquisDVA.css">
+		<link rel="stylesheet" type="text/css" href="css/forrest.css">
+		
+
+
+
+
+
+		<!-- Place other non-versioned js links here or right before the closing body tag -->
+</head>
+<body>
+	<div id="page-wrapper">
+
+		<main id="main-content">
+		   
+			
+
+
+
+
+
+<style>
+		.AdvTable {
+			margin-right: 45px;
+			top:160px;
+		}
+		
+		
+		/*
+		table.subtable tr td {
+			min-width:95px;
+		}
+		*/
+		
+		
+		
+		.AdvTable table.left-axis {
+			width: 170px;	
+		}
+		
+		.AdvTable div.table-container {
+			margin-left: 29px;
+			margin-top: 20px;
+		/* 	position: absolute; */
+		}
+		
+		.table-container {
+			width: 787px;
+		}
+		
+		
+		.AdvTable .VsTitle {
+			font-size: 12px;
+			top: 0px;
+			width: 605px;
+			position: absolute;
+			left: 330px;
+			height: 20px;
+		 }
+		
+		.VsTitle td{
+			display: inline-block;
+			width: 200px;
+			text-align: center;
+			}
+		
+		.further_info .furtherInfo_content, .study_content {
+			padding-bottom: 0px;
+		}
+		</style>
+		
+		
+		
+		
+		
+				  
+		
+
+		
+				  <header class="slide_header">
+					<div>
+					  <h1>Interactive Table - Ahmed Adnan Tariq</h1>
+					  <h4>Click the Blue Circle on the left. You may also click the Arrow in the Sub Heading<BR>
+					Topics '<i>AAA</i>', '<i>BBB</i>', '<i>CCC</i>' are placeholders for actual Study groups</h4>
+					</div>
+				  </header>
+				  
+						
+			  
+			  <div class="tabs"> 
+				
+				<!--tab #one starts-->
+				<div class="tab" id="one">
+		
+		
+		
+				  
+		
+		
+						<div class="AdvTable">
+							<div class="btns-left">
+								<span id="Group1-btns">
+									<div class="btn-container">
+										<div class="col-btn" id="colOne"></div>
+										<div class="btn-label">AAA vs. BBB</div>
+									</div>
+									<div class="btn-container">
+										<div class="col-btn" id="colTwo"></div>
+										<div class="btn-label">AAA vs. CCC</div>
+									</div>
+									<div class="btn-container">
+										<div class="col-btn" id="colThree"></div>
+										<div class="btn-label">BBB vs. CCC</div>
+									</div>
+								</span>
+								
+							</div>
+		
+		
+							<table class="VsTitle">
+								<tr>
+
+									<td class="collapsible colOne">AAA vs. BBB</td>
+									<td class="collapsible colTwo">AAA vs. CCC</td>
+									<td class="collapsible colThree">BBB vs. CCC</td>
+								</tr>
+							</table>
+		
+		
+							<div class="table-container">
+								<table class="outertable">
+									<tr>
+										<td class="neededFloater">
+											<table class="subtable left-axis">
+												<tr>
+													<th id="axis-header" class="noBorder" style="color:#717171; text-align:center;">Sub Heading</th>
+												</tr>
+		<!--
+												<tr>
+													<td>&nbsp;</td>
+												</tr> crap ignore
+		-->
+		
+												<!--1st -->
+												<tr class="DarkBk">
+													<td class="AccClass" id="Row1">Age</td>
+												</tr>
+		
+												<tr class="Row1 rowHider">
+													<td>Mean (SD)</td>
+												</tr>
+												<tr class="Row1 rowHider">
+													<td>&lt;65</td>
+												</tr>
+												<tr class="Row1 rowHider">
+													<td>65-74</td>
+												</tr>
+												<tr class="Row1 rowHider">
+													<td>75-79</td>
+												</tr>
+												<tr class="Row1 rowHider">
+													<td>≥80</td>
+												</tr>
+												
+										
+										
+												
+												<!--2nd -->
+		
+												<tr class="DarkBk">
+													<td class="AccClass" id="Row2">Gender</td>
+												</tr>
+		
+												<tr class="Row2 rowHider">
+													<td>Male</td>
+												</tr>
+												<tr class="Row2 rowHider">
+													<td>Female</td>
+												</tr>
+		
+		
+		
+												<!--3rd -->
+		
+												<tr class="DarkBk">
+													<td class="AccClass" id="Row3">CHA<sub>2</sub>DS<sub>2</sub>-VASc Score</td>
+												</tr>
+		
+												<tr class="Row3 rowHider">
+													<td>Mean (SD)</td>
+												</tr>
+												<tr class="Row3 rowHider">
+													<td>0</td>
+												</tr>
+												<tr class="Row3 rowHider">
+													<td>1</td>
+												</tr>
+												<tr class="Row3 rowHider">
+													<td>2</td>
+												</tr>
+												<tr class="Row3 rowHider">
+													<td>6</td>
+												</tr>
+												<tr class="Row3 rowHider">
+													<td>2+</td>
+												</tr>
+		
+		
+		
+												<!--4th -->
+		
+												<tr class="DarkBk">
+													<td class="AccClass" id="Row4">HAS-BLED Score*</td>
+												</tr>
+		
+												<tr class="Row4 rowHider">
+													<td>Mean (SD)</td>
+												</tr>
+												<tr class="Row4 rowHider">
+													<td>0</td>
+												</tr>
+												<tr class="Row4 rowHider">
+													<td>1</td>
+												</tr>
+												<tr class="Row4 rowHider">
+													<td>2</td>
+												</tr>
+												<tr class="Row4 rowHider">
+													<td>3+</td>
+												</tr>
+		
+		
+		
+		
+												<!-- 	single -->
+												<tr class="TopBorder">
+													<td>Congestive heart failure</td>
+												</tr>
+												
+												<tr class="TopBorder">
+													<td>Diabetes mellitus</td>
+												</tr>
+												
+												<tr class="TopBorder">
+													<td>Hypertension</td>
+												</tr>
+												<tr class="TopBorder">
+													<td>Renal disease</td>
+												</tr>
+												<tr class="TopBorder">
+													<td>S/SE</td>
+												</tr>
+												<tr class="TopBorder">
+													<td>Peripheral artery disease</td>
+												</tr>
+												<tr class="TopBorder">
+													<td>Coronary artery disease</td>
+												</tr>
+		
+		
+		
+												<!--5th -->
+		
+												<tr class="DarkBk">
+													<td class="AccClass TwoLines" id="Row5">Dose of the Index Prescription</td>
+												</tr>
+		
+												<tr class="Row5 rowHider">
+													<td>Standard dose<sup>†</sup></td>
+												</tr>
+												<tr class="Row5 rowHider">
+													<td>Lower dose<sup>‡</sup></td>
+												</tr>
+		
+		
+		
+		
+												<!--6th -->
+		
+												<tr class="DarkBk">
+													<td class="AccClass" id="Row6">Follow-up Time (in days)</td>
+												</tr>
+		
+												<tr class="Row6 rowHider">
+													<td>Mean (SD)</td>
+												</tr>
+												<tr class="Row6 rowHider">
+													<td>Median</td>
+												</tr>
+		
+		
+		
+		
+		
+		
+		
+		
+																						
+											</table>
+										</td>
+										<td id="Group1-container" class="neededFloater">
+											<table class="subtable blue-subtable">
+												<tr>
+		<!-- 											<th id="Group1-header" colspan="3">Title 1</th> -->
+		
+		
+		
+													<th class="collapsible AAA colOne">AAA<BR><span class="Helvetica-light">(N=37,095)</span></th>
+													<th class="collapsible BBB colOne">BBB<BR><span class="Helvetica-light">(N=23,096)</span></th>
+													
+													<th class="collapsible AAA colTwo">AAA<BR><span class="Helvetica-light">(N=65,615)</span></th>
+													<th class="collapsible CCC colTwo">CCC<BR><span class="Helvetica-light">(N=65,619)</span></th>
+													
+													<th class="collapsible BBB colThree">BBB<BR><span class="Helvetica-light">(N=24,558)</span></th>
+													<th class="collapsible CCC colThree">CCC<BR><span class="Helvetica-light">(N=24,558)</span></th>											
+												</tr>
+		
+												<!--1st -->
+												<tr class="DarkBk">
+													<td class="collapsible colOne">&nbsp;</td>
+													<td class="collapsible colOne">&nbsp;</td>
+													
+													<td class="collapsible colTwo">&nbsp;</td>
+													<td class="collapsible colTwo">&nbsp;</td>
+													
+													<td class="collapsible colThree">&nbsp;</td>
+													<td class="collapsible colThree">&nbsp;</td>
+												</tr>
+																						
+												<tr class="Row1 rowHider">
+													<td class="collapsible colOne">71.7 (11.5)</td>
+													<td class="collapsible colOne">71.6 (11.3)</td>
+													
+													<td class="collapsible colTwo">73.1 (11.6)</td>
+													<td class="collapsible colTwo">72.9 (11.5)</td>
+													
+													<td class="collapsible colThree">71.4 (11.4)</td>
+													<td class="collapsible colThree">71.4 (11.5)</td>
+												</tr>
+												
+												
+												<tr class="Row1 rowHider">
+													<td class="collapsible colOne">6,755 (24.9%)</td>
+													<td class="collapsible colOne">6,727 (24.8%)</td>
+													
+													<td class="collapsible colTwo">13,990 (22.3%)</td>
+													<td class="collapsible colTwo">13,930 (22.2%)</td>
+													
+													<td class="collapsible colThree">7,006 (25.4%)</td>
+													<td class="collapsible colThree">7,026 (25.5%)</td>
+												</tr>
+												
+												
+												<tr class="Row1 rowHider">
+													<td class="collapsible colOne">8,874 (32.8%)</td>
+													<td class="collapsible colOne">8,883 (32.8%)</td>
+													
+													<td class="collapsible colTwo">18,682 (29.8%)</td>
+													<td class="collapsible colTwo">18,999 (30.3%)</td>
+													
+													<td class="collapsible colThree">9,000 (32.7%)</td>
+													<td class="collapsible colThree">8,908 (32.3%)</td>
+												</tr>
+												
+												
+												<tr class="Row1 rowHider">
+													<td class="collapsible colOne">4,718 (17.4%)</td>
+													<td class="collapsible colOne">4,762 (17.6%)</td>
+													
+													<td class="collapsible colTwo">10,695 (17.1%)</td>
+													<td class="collapsible colTwo">10,528 (16.8%)</td>
+													
+													<td class="collapsible colThree">4,795 (17.4%)</td>
+													<td class="collapsible colThree">4,893 (17.8%)</td>
+												</tr>
+												
+												
+												<tr class="Row1 rowHider">
+													<td class="collapsible colOne">1,749 (24.9%)</td>
+													<td class="collapsible colOne">1,724 (24.8%)</td>
+													
+													<td class="collapsible colTwo">12,252 (30.7%)</td>
+													<td class="collapsible colTwo">19,162 (30.6%)</td>
+													
+													<td class="collapsible colThree">6,737 (24.5%)</td>
+													<td class="collapsible colThree">6,711 (24.4%)</td>
+												</tr>
+		
+												
+												<!--2nd -->
+												<tr class="DarkBk">
+													<td class="collapsible colOne">&nbsp;</td>
+													<td class="collapsible colOne">&nbsp;</td>
+													
+													<td class="collapsible colTwo">&nbsp;</td>
+													<td class="collapsible colTwo">&nbsp;</td>
+													
+													<td class="collapsible colThree">&nbsp;</td>
+													<td class="collapsible colThree">&nbsp;</td>
+												</tr>
+																						
+												<tr class="Row2 rowHider">
+													<td class="collapsible colOne">13,069 (59.3%)</td>
+													<td class="collapsible colOne">18,006 (59.1%)</td>
+													
+													<td class="collapsible colTwo">34,553 (55.2%)</td>
+													<td class="collapsible colTwo">34,319 (54.8%)</td>
+													
+													<td class="collapsible colThree">13,397 (59.5%)</td>
+													<td class="collapsible colThree">13,472 (59.8%)</td>
+												</tr>
+		
+												<tr class="Row2 rowHider">
+													<td class="collapsible colOne">18,027 (40.7%)</td>
+													<td class="collapsible colOne">12,090 (40.9%)</td>
+													
+													<td class="collapsible colTwo">28,066 (44.8%)</td>
+													<td class="collapsible colTwo">28,300 (45.2%)</td>
+													
+													<td class="collapsible colThree">12,141 (40.5%)</td>
+													<td class="collapsible colThree">11,066 (40.2%)</td>
+												</tr>
+		
+		
+		
+												<!--3rd -->
+												<tr class="DarkBk">
+													<td class="collapsible colOne">&nbsp;</td>
+													<td class="collapsible colOne">&nbsp;</td>
+													
+													<td class="collapsible colTwo">&nbsp;</td>
+													<td class="collapsible colTwo">&nbsp;</td>
+													
+													<td class="collapsible colThree">&nbsp;</td>
+													<td class="collapsible colThree">&nbsp;</td>
+												</tr>
+																						
+												<tr class="Row3 rowHider">
+													<td class="collapsible colOne">5.3 (1.8)</td>
+													<td class="collapsible colOne">5.3 (1.8)</td>
+													
+													<td class="collapsible colTwo">5.5 (1.8)</td>
+													<td class="collapsible colTwo">3.5 (1.8)</td>
+													
+													<td class="collapsible colThree">5.3 (1.8)</td>
+													<td class="collapsible colThree">9.3 (1.8)</td>
+												</tr>
+		
+												<tr class="Row3 rowHider">
+													<td class="collapsible colOne">1,599 (5.9%)</td>
+													<td class="collapsible colOne">7,564 (5.8%)</td>
+													
+													<td class="collapsible colTwo">2,822 (4.5%)</td>
+													<td class="collapsible colTwo">2,863 (4.6%)</td>
+													
+													<td class="collapsible colThree">1,650 (6.0%)</td>
+													<td class="collapsible colThree">1,615 (5.9%)</td>
+												</tr>
+												
+												<tr class="Row3 rowHider">
+													<td class="collapsible colOne">2,622 (9.7%)</td>
+													<td class="collapsible colOne">2,569 (9.6%)</td>
+													
+													<td class="collapsible colTwo">5,066 (8%)</td>
+													<td class="collapsible colTwo">5,312 (8.5%)</td>
+													
+													<td class="collapsible colThree">2,766 (9.8%)</td>
+													<td class="collapsible colThree">2,781 (10.1%)</td>
+												</tr>
+												
+												<tr class="Row3 rowHider">
+													<td class="collapsible colOne">4,688 (17.3%)</td>
+													<td class="collapsible colOne">4,561 (16.8%)</td>
+													
+													<td class="collapsible colTwo">9,882 (15.8%)</td>
+													<td class="collapsible colTwo">9,898 (15.8%)</td>
+													
+													<td class="collapsible colThree">4,669 (17.0%)</td>
+													<td class="collapsible colThree">4,723 (17.2%)</td>
+												</tr>
+												
+		
+												<tr class="Row3 rowHider">
+													<td class="collapsible colOne">5,665 (22.1%)</td>
+													<td class="collapsible colOne">6,613 (22.2%)</td>
+													
+													<td class="collapsible colTwo">13,617 (21.3%)</td>
+													<td class="collapsible colTwo">13,263 (21.2%)</td>
+													
+													<td class="collapsible colThree">6,082 (22.1%)</td>
+													<td class="collapsible colThree">5,989 (21.7%)</td>
+												</tr>
+												
+												
+												<tr class="Row3 rowHider">
+													<td class="collapsible colOne">12,192 (45.0%)</td>
+													<td class="collapsible colOne">12,359 (45.6%)</td>
+													
+													<td class="collapsible colTwo">31,592 (50.5%)</td>
+													<td class="collapsible colTwo">31,283 (50.0%)</td>
+													
+													<td class="collapsible colThree">12,431 (45.1%)</td>
+													<td class="collapsible colThree">12,630 (45.1%)</td>
+												</tr>
+		
+		
+		
+												
+												<!-- 4th -->
+		
+												<tr class="DarkBk">
+													<td class="collapsible colOne">&nbsp;</td>
+													<td class="collapsible colOne">&nbsp;</td>
+													
+													<td class="collapsible colTwo">&nbsp;</td>
+													<td class="collapsible colTwo">&nbsp;</td>
+													
+													<td class="collapsible colThree">&nbsp;</td>
+													<td class="collapsible colThree">&nbsp;</td>
+												</tr>
+																						
+												<tr class="Row4 rowHider">
+													<td class="collapsible colOne">1.6 (1.4)</td>
+													<td class="collapsible colOne">1.7 (1.4)</td>
+													
+													<td class="collapsible colTwo">1.9 (1.4)</td>
+													<td class="collapsible colTwo">2.8 (1.4)</td>
+													
+													<td class="collapsible colThree">2.6 (1.4)</td>
+													<td class="collapsible colThree">1.6 (1.4)</td>
+												</tr>
+		
+		
+												<tr class="Row4 rowHider">
+													<td class="collapsible colOne">1,274 (4.7%)</td>
+													<td class="collapsible colOne">1,249 (4.6%)</td>
+													
+													<td class="collapsible colTwo">2,139 (3.4%)</td>
+													<td class="collapsible colTwo">2,200 (3.5%)</td>
+													
+													<td class="collapsible colThree">1,338 (4.9%)</td>
+													<td class="collapsible colThree">1,359 (4.9%)</td>
+												</tr>
+		
+		
+												<tr class="Row4 rowHider">
+													<td class="collapsible colOne">4,946 (14.6%)</td>
+													<td class="collapsible colOne">4,915 (14.4%)</td>
+													
+													<td class="collapsible colTwo">8,744 (12.4%)</td>
+													<td class="collapsible colTwo">8,964 (12.7%)</td>
+													
+													<td class="collapsible colThree">5,052 (14.7%)</td>
+													<td class="collapsible colThree">5,073 (14.8%)</td>
+												</tr>
+												
+		
+		
+												<tr class="Row4 rowHider">
+													<td class="collapsible colOne">7,947 (29.3%)</td>
+													<td class="collapsible colOne">7,924 (29.2%)</td>
+													
+													<td class="collapsible colTwo">11,280 (26%)</td>
+													<td class="collapsible colTwo">13,447 (26.3%)</td>
+													
+													<td class="collapsible colThree">5,048 (29.2%)</td>
+													<td class="collapsible colThree">2,673 (27.9%)</td>
+												</tr>																				
+		
+		
+		
+												<tr class="Row4 rowHider">
+													<td class="collapsible colOne">13,929 (51.4%)</td>
+													<td class="collapsible colOne">14,008 (51.7%)</td>
+													
+													<td class="collapsible colTwo">36,456 (58.2%)</td>
+													<td class="collapsible colTwo">36,008 (57.5%)</td>
+													
+													<td class="collapsible colThree">14,100 (51.2%)</td>
+													<td class="collapsible colThree">14,433 (52.4%)</td>
+												</tr>
+		
+		
+		
+		
+		
+												<!-- 	single -->
+												<tr class="rowHider TopBorder">
+													<td class="collapsible colOne">6,402 (23.6%)</td>
+													<td class="collapsible colOne">6,521 (24.1%)</td>
+													
+													<td class="collapsible colTwo">16,662 (26.6%)</td>
+													<td class="collapsible colTwo">16,348 (26.1%)</td>
+													
+													<td class="collapsible colThree">6,590 (23.9%)</td>
+													<td class="collapsible colThree">6,594 (23.9%)</td>											
+												</tr>
+		
+		
+		
+		
+												<tr class="rowHider TopBorder">
+													<td class="collapsible colOne">9,101 (33.6%)</td>
+													<td class="collapsible colOne">9,278 (34.2%)</td>
+																							
+													<td class="collapsible colTwo">20,982 (33.5%)</td>
+													<td class="collapsible colTwo">20,595 (32.9%)</td>
+																							
+													<td class="collapsible colThree">9,474 (34.4%)</td>
+													<td class="collapsible colThree">9,560 (34.7%)</td>											
+												</tr>
+		
+												<tr class="rowHider TopBorder">
+													<td class="collapsible colOne">22,661 (83.6%)</td>
+													<td class="collapsible colOne">22,693 (83.8%)</td>
+																							
+													<td class="collapsible colTwo">53,806 (85.9%)</td>
+													<td class="collapsible colTwo">53,849 (86.0%)</td>
+																							
+													<td class="collapsible colThree">22,990 (83.5%)</td>
+													<td class="collapsible colThree">22,939 (83.3%)</td>											
+												</tr>
+		
+		
+		
+		
+												<tr class="rowHider TopBorder">
+													<td class="collapsible colOne">4,367 (16.1%)</td>
+													<td class="collapsible colOne">4,346 (16.0%)</td>
+																							
+													<td class="collapsible colTwo">13,116 (20.9%)</td>
+													<td class="collapsible colTwo">13,008 (20.8%)</td>
+																							
+													<td class="collapsible colThree">4,360 (15.8%)</td>
+													<td class="collapsible colThree">4,378 (15.9%)</td>											
+												</tr>
+												
+												
+												
+												<tr class="rowHider TopBorder">
+													<td class="collapsible colOne">2,618 (9.7%)</td>
+													<td class="collapsible colOne">2,692 (9.9%)</td>
+																							
+													<td class="collapsible colTwo">7,010 (11.2%)</td>
+													<td class="collapsible colTwo">6,879 (11.0%)</td>
+																							
+													<td class="collapsible colThree">2,701 (9.8%)</td>
+													<td class="collapsible colThree">2,760 (10.0%)</td>											
+												</tr>
+		
+		
+												<tr class="rowHider TopBorder">
+													<td class="collapsible colOne">4,225 (15.6%)</td>
+													<td class="collapsible colOne">4,188 (15.5%)</td>
+																							
+													<td class="collapsible colTwo">11,305 (18.1%)</td>
+													<td class="collapsible colTwo">11,538 (18.4%)</td>
+																							
+													<td class="collapsible colThree">4,209 (15.3%)</td>
+													<td class="collapsible colThree">4,472 (16.2%)</td>											
+												</tr>
+		
+		
+		
+												<tr class="rowHider TopBorder">
+													<td class="collapsible colOne">10,770 (39.7%)</td>
+													<td class="collapsible colOne">10,873 (40.1%)</td>
+																							
+													<td class="collapsible colTwo">27,904 (44.6%)</td>
+													<td class="collapsible colTwo">27,259 (43.5%)</td>
+																							
+													<td class="collapsible colThree">10,959 (39.8%)</td>
+													<td class="collapsible colThree">10,958 (39.8%)</td>											
+												</tr>
+		
+		
+		
+		
+												<!--5th -->
+												<tr class="DarkBk">
+													<td class="collapsible colOne">&nbsp;</td>
+													<td class="collapsible colOne">&nbsp;</td>
+													
+													<td class="collapsible colTwo">&nbsp;</td>
+													<td class="collapsible colTwo">&nbsp;</td>
+													
+													<td class="collapsible colThree">&nbsp;</td>
+													<td class="collapsible colThree">&nbsp;</td>
+												</tr>
+		
+		
+		
+												<tr class="rowHider Row5">
+													<td class="collapsible colOne">22,542 (83.2%)</td>
+													<td class="collapsible colOne">22,981 (84.8%)</td>
+																							
+													<td class="collapsible colTwo">49,653 (79.3%)</td>
+													<td class="collapsible colTwo">45,872 (73.3%)</td>
+																							
+													<td class="collapsible colThree">23,399 (85.0%)</td>
+													<td class="collapsible colThree">21,124 (76.7%)</td>											
+												</tr>
+		
+		
+												<tr class="rowHider Row5">
+													<td class="collapsible colOne">4,554 (16.8%)</td>
+													<td class="collapsible colOne">4,115 (15.2%)</td>
+																							
+													<td class="collapsible colTwo">12,966 (20.7%)</td>
+													<td class="collapsible colTwo">16,747 (26.7%)</td>
+																							
+													<td class="collapsible colThree">4,139 (15.0%)</td>
+													<td class="collapsible colThree">6,414 (23.3%)</td>											
+												</tr>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+												<!--6th -->
+												<tr class="DarkBk">
+													<td class="collapsible colOne">&nbsp;</td>
+													<td class="collapsible colOne">&nbsp;</td>
+													
+													<td class="collapsible colTwo">&nbsp;</td>
+													<td class="collapsible colTwo">&nbsp;</td>
+													
+													<td class="collapsible colThree">&nbsp;</td>
+													<td class="collapsible colThree">&nbsp;</td>
+												</tr>
+		
+		
+												<tr class="rowHider Row6">
+													<td class="collapsible colOne">198.9 (181.6)</td>
+													<td class="collapsible colOne">235.5 (235.4)</td>
+																							
+													<td class="collapsible colTwo">198.6 (180.8)</td>
+													<td class="collapsible colTwo">240.1 (228.6)</td>
+																							
+													<td class="collapsible colThree">234.6 (234.8)</td>
+													<td class="collapsible colThree">241.2 (229.2)</td>											
+												</tr>
+												
+												
+												
+												<tr class="rowHider Row6">
+													<td class="collapsible colOne">133</td>
+													<td class="collapsible colOne">130</td>
+																							
+													<td class="collapsible colTwo">133</td>
+													<td class="collapsible colTwo">149</td>
+																							
+													<td class="collapsible colThree">128</td>
+													<td class="collapsible colThree">149</td>											
+												</tr>
+		
+		
+		
+		
+		
+		
+		
+																						
+											</table>
+										</td>
+										
+									</tr>
+									
+									
+									<tr class=""><td colspan="7" class="chartNotes">*As the INR value is not available in the databases, a modified HAS-BLED score was calculated with a range of 0 to 8.<BR>
+		<sup>†</sup>Standard dose: 5 mg AAA, 150 mg BBB, 20 mg CCC.<BR>
+		<sup>‡</sup>Lower dose: 2.5 mg AAA, 75 mg BBB, 10 or 15 mg CCC. There were 4,589 patients from the AAA-CCC (n=3,239) and BBB-CCC (n=1,350) cohorts who were administered CCC 10 mg.</td>
+		</tr>
+		
+					
+												
+								</table>
+								
+								
+							</div>
+							
+		
+							
+						</div>
+		
+		
+		
+				  
+		
+						  
+		
+				 
+		 
+				</div>
+				<!--tab #one ENDS--> 
+				
+				
+				
+				
+
+		 
+			  </div><!--tabs-->
+		
+		<ul class="cornernote">
+			<li>email: adnan.tariq1980@gmail.com</li>
+			<li style="margin-bottom: 0px;">phone: 908-552-9605</li>
+		</ul>
+		
+		
+		
+		  
+		
+		
+		
+		
+		
+		<script>
+		
+				var CurrentSlide = 2;
+		
+			// this just sets up the scroll
+			AccordianResetScroll('.tab#one .table-container');
+			
+			
+			//this will make the accClass interactive
+			classAccordian();
+		
+			//check for a click and then send a refresh
+			// this is done as .AccClass could be in Different containers. the refresh for them will also be different
+			$(".AccClass").on("click touchstart", function(e) {
+				AccClass_iScrollRefresh();
+			});    
+				  
+		$(document).ready(function(evt) {
+		
+				$(".nav_text .ChangeToTitle").html("DOAC - DOAC");
+				$("#Mini-Nav #link_1").addClass("SELECTED");
+				//BuildingRefList(["aristophanes"],"","#refs-list",".LongRef");
+		
+		
+
+		
+		}); 	  
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		// document ready ends here
+			  
+		  </script>
+		
+		
+		<!-- content for more info overlay add here -->
+		
+		
+		<div class="MoreInfoCarryOver">
+			
+									
+		<div id="further_info_1">
+		
+				<h2>Abbreviation(s)</h2>
+				<div class="abbrList">
+				</div>
+		
+				<h2>Reference(s)</h2>
+				<div class="LongRef"></div>
+				
+		
+			   
+		</div>
+		
+		
+		
+		
+		</div>
+		
+		<!-- MoreInfoCarryOver -->
+		
+		
+		
+		
+		
+		
+		
+        </main><!-- END #main-content -->
+
+		<!-- footer include -->
+<footer>
+
+		
+		
+		<div class="navigation">
+		
+			<div class="nav_btns">
+				<div class="home btn" xxx="S_EN_12691/12691_ELI_Home"></div>
+				<div class="search_content btn" xxx="US_EN_12691/12691_ELI_Home"></div>
+				
+				
+				<!-- Menue -_- -->
+				<div class="menue btn" xxx="hamburger_btn();"></div>
+				<div id="text_nav" class="btn"><p> Interactive Table- adnan.tariq1980@gmail.com</div>
+				
+				<div class="Dip">
+				<div id="reference" class="btn" xxx="ref_butn();"></div>
+				</div>
+			</div>
+		
+		
+		</div>
+		
+		
+		</footer>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	</div><!-- END #page-wrapper-->
+</body>
+</html>

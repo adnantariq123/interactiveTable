@@ -1,0 +1,822 @@
+
+.Helvetica-light {
+	font-family: 'Helvetica-Light' !important;
+}
+
+ul.bullet li.nooz:before {
+	margin-right: 8px;
+}
+
+
+.SubHidden .mainHolder p {
+	font-size: 16px;
+	color: #717171;
+
+}
+
+#main-content .limitations.tandum {
+	position: relative;
+	margin: 0px auto;
+	left: auto;
+	width: 725px;
+	bottom: auto;
+}
+
+/* Accordian */
+.AccordianFootNote {
+	font-family: 'Helvetica-light';
+	font-size: 9px;
+	color: #949494;
+	text-align: right;
+	position: relative;
+	right: 16px;
+}
+.AccordianFootNote .reg {
+	font-family:'Helvetica-Regular';	
+}
+
+.AccordianFootNote.Left {
+	text-align: left;
+	right: auto;
+}
+
+
+.Accordian.Legend_Container {
+	width: 785px;
+	top:-30px;
+}
+
+.Accordian.Legend_Container .Ac_Contain .iScrollVerticalScrollbar {
+	height: 100%;
+}
+
+.tab .Accordian.Legend_Container {
+    left:5px;	
+}
+
+/* add the DASHED class for unordered list */
+ul.dashed, ul.ovaled {
+    margin-left: 14px;
+    margin-bottom: 20px;
+}
+
+.modal.further_info ul.dashed, ul.ovaled {
+    margin-bottom: 25px;
+}
+
+
+.dashed li {
+    border: none;
+    padding: 0;
+    margin: 0 0 6px;
+    font-family: 'Helvetica-Light';
+    line-height: 1.3em;
+    color: #717171;
+}
+
+.modal-content .dashed li {
+	font-size: 16px;
+	margin-bottom: 10px;
+	
+}
+
+.dashed li:before {
+    margin-left: -12px;
+}
+
+.dashed li:before {
+     content: "–";
+}
+
+.bulleted li:before, .dashed li:before, .ovaled li:before {
+    padding-right: 4px;
+    color: #717171;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+/* for scrolling in further_info only - make it universal*/
+	.modal-content .scrollable {
+		width: 100%;
+/* 		height: 545px; might be a mistake*/
+		height: 515px;
+		margin: 0 auto;
+		overflow: hidden;
+		position: relative;
+	}
+	
+	
+/*	.further_info .iScrollVerticalScrollbar {
+		background: none;
+ 		mght be a mistake to turn off right 35
+		right: 35px;
+	}
+/* 
+
+/*
+	.further_info .iScrollIndicator {
+
+	}
+	.further_info .iScrollVerticalScrollbar,
+	.further_info .iScrollIndicator {
+		width: 7px;
+	}
+*/
+	
+
+
+.Ac_Contain .iScrollVerticalScrollbar {
+	height: 97%;
+/*    top: 120px;
+
+	background: #ccc;
+    border:1px solid #ccc;
+*/
+}
+
+
+/*  accordion are used extensively*/
+button.accordion, .LaTitle {
+    background-color: #fff;
+    color: #0060a1;
+    padding:6px;
+    padding-left: 28px;
+    width:770px;
+    left:0px;
+    text-align: left;
+    outline: none;
+	font-size: 14px;
+    transition: 0.4s;
+    -moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+border-radius: 15px;
+box-shadow: 0px 4px 2px #f2f2f2;
+height: 30px;
+margin-bottom:11px;
+border: 0.75px solid #C2C2C2;
+    position: relative;
+}
+
+button.accordion.active::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background:#fafafa;
+    left: 0px;
+    bottom: -13px;/* trying 13 from 10 */
+    z-index: -1;
+}
+
+button.accordion:before, td.AccClass:before {
+content: "";
+    float: right;
+    margin-right: 18px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid #245fa0;
+    position: relative;
+    top: 3px;
+}
+
+td.AccClass.smaller:before {
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 7px solid #245fa0;	
+}
+
+button.TwoLines.accordion:before, td.TwoLines.AccClass:before {
+    top:9px;	
+}
+
+
+td.AccClass:before {
+	margin-right: 6px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);	
+}
+
+button.accordion.active:before {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+td.AccClass.active:before {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);	
+}
+
+.LaTitle div.panel {
+    position: absolute;
+    background: none;
+    display: block;
+    overflow: inherit;
+    left: 0px;
+    top: 0px;
+/*     height: 32px; USE percentage instead of actual pixel values - due to computations*/
+	height: 100%;
+    max-height: inherit;
+}
+.LaTitle .col {
+	background: #fff;
+}
+
+div.panel {
+    padding: 0 18px;
+/*     background: red; */
+    background-color: #fafafa;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    display: none;
+    position:relative;
+    z-index: 1;
+    width:770px;
+    left:0px;
+/*     might be a mistake adding a -3 top ... or -5*/
+/* 	top:-5px; */
+}
+
+.rowHider {
+    transition: max-height 0.2s ease-out;
+	display: table-row;	
+}
+
+.subtable.left-axis .rowHider td{
+	padding-left: 22px;
+/* 	text-transform: lowercase; */
+}
+/*
+	sad face :( this cannot be appliced for appliy sentecne case to all becuase the text needs to be mixed up. again sade face :(
+.subtable.left-axis .rowHider td:first-letter{
+	text-transform: capitalize;
+	}
+*/
+
+table.subtable.left-axis tr td {
+	padding-left: 12px;	
+}
+
+
+.subtable.left-axis .rowHider.II td{
+	padding-left: 40px;
+}
+
+.TopBorder {
+	border-top: 1px solid #ded6d7;
+}
+
+tr.active {
+
+	display: none;
+}
+
+
+div.panel.active {
+	display: block;
+}
+
+.Ac_Contain {
+	position:relative;
+	top:30px;
+	height: 485px;
+/* height: 450px; */
+	overflow: hidden;
+	left: 0px;
+}
+
+
+.col {
+	position: absolute;
+	background:#f4f7fa;
+	width: 133px;
+    top: 0px;
+}
+.col.left{
+	left:390px;
+}
+
+.Ac_Contain .col.left{
+/* 	left:360px; */
+    left: 389px;
+    width: 134px;	
+}
+
+
+/*
+.col.middle{
+	left:453px;
+	border-left:2px solid #fff;
+	border-right:2px solid #fff;
+}
+*/
+.col.right{
+	left:524px;
+}
+.Ac_Contain .col.right{
+	left:524px;
+	width: 134px;
+}
+
+
+.left.BKHeader {
+	border-top-left-radius: 10px;
+}
+
+.right.BKHeader {
+	border-top-right-radius: 10px;
+}
+.BKHeader {
+	background: #245fa0;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.BKHeader.lBlue {
+	background: #43a2ca;
+}
+.BKHeader.Purple {
+/* 	Purple was changed to grey 
+	background: #5d5596;*/
+	background: #969696;
+}
+
+.BKHeader.lGreen {
+	background: #20b5a0;
+}
+
+.BKHeader.lYellow {
+	background: #fed36b;
+}
+.BKHeader.lYellow .spamMe {
+	color: #666;
+}
+
+
+
+
+.spamMe {
+	line-height: 1.1em;
+    display: inline-block;
+	font-size: 10px;
+	text-align: center;
+	vertical-align: middle;
+    -webkit-transform: translate3d(0, 0, 0);	
+}
+.panel .col {
+	height: 100%;
+/* 	padding: 10px; */
+	padding: 6px;
+
+}
+.panel .col.left {
+	border-left:1px solid #fff;
+}
+.panel .col.right {
+	border-right:1px solid #fff;
+}
+
+
+.panel .panelTxt {
+	width: 295px;
+    display: inline-block;
+    float: left;
+    line-height: 1em;
+    padding: 10px;
+    padding-top: 6px;
+}
+
+.tableAccordian {
+	line-height: 1em;
+}
+.tableAccordian .push15 {
+	padding-left: 15px;
+}
+
+.panel p {
+	margin-top: 10px;
+}
+
+.tableAccordian td, .Ac_Contain .panel p, .panel ul {
+	font-family: 'Helvetica-light';
+    font-size: 12px;
+    color: #717171;
+    line-height: 1.5em;
+    position: relative;
+/*         -webkit-transform: translate3d(0, 0, 0); */
+}
+.panel ul {
+	margin-bottom: 10px;
+}
+
+.panel ul li:before {
+	content: "•";
+	color: #8a8a8a;	 
+	margin-right: 10px;
+	font-size: 1em;	 
+ }
+
+.col .tableAccordian {
+	text-align: center;
+	width: 100%;
+}
+.istoScroll {
+    position: relative;
+}
+
+
+.PillBtn span.btn-text {
+    line-height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Helvetica-Regular';
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 2px;
+        -webkit-transform: translate3d(0, 0, 0);
+}
+
+
+
+.HideforTab {
+	display: none;
+}
+
+
+.HideforTab.SELECTED {
+	display: block;
+}
+
+
+
+/* StudyDesign */
+
+
+
+.StudyDesign .LeftPanel { background: none; }
+
+
+.StudyDesign .LeftPanel .LeftBtn, .StudyDesign .LeftPanel .PillBtn {
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* Advanced Tables */
+
+
+.AdvTable {
+	margin-left: 20px;
+	margin-right: 65px;
+/* 	position: absolute; */
+
+}
+
+.modal .AdvTable {
+	margin: 0px;
+	margin-bottom: 1em;
+}
+
+.AdvTable .VsTitle {
+    height: 28px;
+    border: none;
+    padding: 0px;
+	
+}
+
+.AdvTable > div {
+	display: inline-block;
+	vertical-align: top;
+/* 	float: left; */
+}
+.AdvTable .btns-left {
+	width: 92px;
+}
+
+.tab .AdvTable .btns-left {
+/* 	width: 92px; */
+width: 125px;
+}
+
+.AdvTable .btn-container {
+	height: 35px;
+	vertical-align: middle;
+	margin-bottom: 8px;
+}
+.AdvTable .btns-left p {
+	font-family: 'Helvetica';
+	font-size: 17px;
+	color: #43a1ca;
+	margin: 0 0 14px 0;
+}
+
+.AdvTable hr {
+	 border: 0;
+	 height: 0;
+	 border-top: 1px solid rgba(0, 0, 0, 0.1);
+	 border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	 margin: 20px 0 16px 0;
+}
+.AdvTable div.col-btn {
+	background-image: url('../img/AdvancedTableRadio.png');
+	background-size: 35px 70px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 35px;
+	display: table-cell;
+}
+.AdvTable div.btn-label {
+	font-family: 'Helvetica';
+	font-size: 11px;
+	color:#666;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+/* OUTER TABLE STYLES */
+.AdvTable div.table-container {
+	margin-left: 50px;
+	height: 486px;;
+	overflow: hidden;
+	padding-right: 10px;
+}
+
+.modal .AdvTable div.table-container {
+	margin-left: 0px;
+	height: auto;
+}
+
+/*
+
+Might be a mistake turning this off. but it fixed the border alignment issue
+*/
+/*
+table.outertable tr td {
+	vertical-align: top;
+}
+*/
+
+
+
+
+.AdvTable div.table-container .outertable .neededFloater {
+display: inline-flex;
+border-bottom: 1px solid #ded6d7;
+}
+
+
+
+
+
+
+
+/* GENERAL SUBTABLE STYLES */
+.Warfarin {
+	background: #959697;
+}
+
+.Apixaban {
+	background: #43A2Ca;
+}
+
+.Dabigatran {
+	background: #32BDAA;
+}
+
+.Rivaroxaban {
+	background: #FAD977;
+	color: #717171 !important;
+}
+
+
+table.subtable {
+/* 	font-family: 'Helvetica-Light'; */
+	font-family: 'Helvetica';
+	font-size: 12px;
+/* 	color: #696867; */
+	color: #717171;
+	text-align: center;
+}
+table.subtable tr th {
+	/* font-family: 'Helvetica-Bold'; */
+	font-weight: normal;
+	color: #fff;
+	vertical-align: middle;
+ 	background-color: #245fa0;
+	padding: 5px 12px;
+/* 	border-top: 1px solid #ded6d7; */
+/* 	border: 1px solid #ded6d7; */
+}
+table.subtable tr td {
+	font-size: 12px;
+	height: 35px;
+	min-width:99px;
+	vertical-align: middle;
+	background-color: #fff;
+	padding: 0 5px;
+/* 	padding-left: 12px; */
+/* 	border-bottom: 1px solid #ded6d7; */
+	border: 1px solid #ded6d7;
+	border-bottom: none;
+    border-top: none;
+    color: #717171;
+}
+
+/*
+table.subtable tr:last-child td {
+	border-bottom: 1px solid #ded6d7;	
+	
+}
+*/
+
+/*
+table.subtable tr:last-child {
+	border-bottom: 1px solid #ded6d7;	
+}
+*/
+
+
+
+
+table.subtable tr.DarkBk td {
+	background: #f4f7fa;
+	border-top: 1px solid #ded6d7;
+	
+}
+/*
+table.subtable tr:nth-child(n+7):nth-child(-n+9) td {
+	border-bottom: 1px solid transparent;
+}
+*/
+/*
+table.subtable tr:nth-of-type(2) td {
+	font-family: 'Helvetica-Light';
+	color: #fff;
+	height: 54px;
+}
+*/
+table.blue-subtable tr th,
+table.green-subtable tr th {
+	max-width: 104px;
+	border: 1px solid #ded6d7;
+}
+/*
+table.blue-subtable tr td,
+table.green-subtable tr th,
+table.green-subtable tr td {
+	border-right: 1px solid #ded6d7;
+}
+*/
+
+/* LEFT AXIS */
+.AdvTable table.left-axis {
+	text-align: left;
+	width: 128px;
+/*
+	border-right: 1px solid #ded6d7;
+	border-left: 1px solid #ded6d7;
+*/
+}
+
+.AdvTable.PrePSM table.left-axis {
+/* 	width: 260px; */
+width: 100%;	
+}
+
+.noBorder {
+/* 	border: none !important;  will cause a problem with the dam alignment*/
+	border-color: #fff !important;
+}
+/*
+.AdvTable.PrePSM table.subtable {
+	width:100%;
+	width: 505px !important;
+}
+*/
+
+.AdvTable.PrePSM table.blue-subtable tr th, table.green-subtable tr th {
+	max-width:172px;
+}
+.AdvTable.PrePSM #Group1-container {
+	width: 67%;
+}
+
+
+.AdvTable.PrePSM table.outertable tr td {
+	width: 200px;
+}
+
+
+
+
+.AdvTable table.left-axis tr:first-of-type th {
+	background-color: #fff;
+/* 	not the best appraoch i know */
+/* 	border-bottom-color: #ded6d7 !important;  turn off becuase idk*/
+/* border-bottom: transparent; */
+}
+
+
+
+
+
+/*
+table.left-axis tr:nth-child(n+8):nth-child(-n+10) td {
+	text-align: right;
+}
+*/
+
+/* BLUE SUBTABLE */
+/*
+table.blue-subtable {
+	border-right: 1px solid #ded6d7;
+}
+*/
+/*
+table.blue-subtable tr:nth-of-type(2) td {
+	background-color: #7cbdda;
+}
+*/
+/*
+table.blue-subtable tr:nth-of-type(2) td:first-of-type {
+	color: #fff;
+	background-color: #43a1ca;
+}
+table.blue-subtable tr:nth-of-type(2) td:last-of-type {
+	background-color: #b4d9ea;
+}
+*/
+
+/* GREEN SUBTABLE */
+table.green-subtable tr th {
+	background-color: #22a864;
+}
+/*
+table.green-subtable tr:nth-of-type(2) td {
+	background-color: #65c293;
+}
+*/
+/*
+table.green-subtable tr:nth-of-type(2) td:first-of-type {
+	color: #fff;
+	background-color: #22a864;
+}
+table.green-subtable tr:nth-of-type(2) td:last-of-type {
+	background-color: #a7dcc1;
+}
+*/
+
+
+/* INTERACTIVE STYLES */
+.AdvTable .HIDE {
+	display: none;
+}
+.AdvTable .OFF {
+	background-position: 0 -35px !important;
+}
+
+.AdvTable table.subtable tr td.Sub1 {
+	padding-left: 20px;	
+}
+.AdvTable table.subtable tr td.Sub2 {
+	padding-left: 40px;	
+}
+
+
+/*
+.AdvTable .TALL {
+	height: 39px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

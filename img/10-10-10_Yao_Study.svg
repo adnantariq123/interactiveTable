@@ -1,0 +1,118 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="557" height="217" viewBox="0 0 557 217">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e5e4e4;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        font-size: 14px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #666766;
+        font-family: Helvetica;
+      }
+
+      .cls-4 {
+        font-size: 12px;
+      }
+
+      .cls-5 {
+        fill: #43a2ca;
+      }
+
+      .cls-6 {
+        fill: #969696;
+      }
+
+      .cls-7 {
+        fill: #23bdaa;
+      }
+
+      .cls-8 {
+        fill: #fed976;
+      }
+
+      .cls-9 {
+        fill: none;
+        stroke: #cbcbcb;
+        stroke-linecap: square;
+        stroke-width: 2px;
+      }
+
+      .cls-10 {
+        fill: #cbcbcb;
+      }
+    </style>
+  </defs>
+  <title>10-10-10_Yao_Study</title>
+  <g>
+    <g id="Box1">
+      <polygon id="Fill-1" class="cls-1" points="156 72 408 72 408 0 156 0 156 72"/>
+      <g id="OptumLabs-Data-Wareh" class="cls-2">
+        <text class="cls-3" transform="translate(191.34 39)">OptumLabs Data <tspan x="109.72" y="0">W</tspan><tspan x="122.42" y="0">arehouse</tspan></text>
+        <text class="cls-4" transform="translate(183.28 61)">Time frame: 10/01/2010 - 06/30/2015</text>
+      </g>
+    </g>
+    <g id="Box2">
+      <polygon id="Fill-1-2" data-name="Fill-1" class="cls-1" points="0 217 150 217 150 131 0 131 0 217"/>
+      <g id="n_15_390" data-name="n=15,390" class="cls-2">
+        <text class="cls-4" transform="translate(45.86 208)">n=15,390</text>
+      </g>
+      <g id="apixaban-vs.-warfari" class="cls-2">
+        <text class="cls-3" transform="translate(35.7 151)">apixaban vs. </text>
+        <text class="cls-3" transform="translate(50.1 168)">warfarin</text>
+        <text class="cls-3" transform="translate(26.75 185)">matched cohort</text>
+      </g>
+      <rect id="Rectangle-5" class="cls-5" y="129" width="75" height="8"/>
+      <rect id="Rectangle-5-Copy" class="cls-6" x="75" y="129" width="75" height="8"/>
+    </g>
+    <g id="Box3">
+      <polygon id="Fill-1-3" data-name="Fill-1" class="cls-1" points="202 217 352 217 352 131 202 131 202 217"/>
+      <g id="n_28_614" data-name="n=28,614" class="cls-2">
+        <text class="cls-4" transform="translate(251.86 208)">n=28,614</text>
+      </g>
+      <g id="dabigatran-vs.-warfa" class="cls-2">
+        <text class="cls-3" transform="translate(233.03 151)">dabigatran vs. </text>
+        <text class="cls-3" transform="translate(252.1 168)">warfarin</text>
+        <text class="cls-3" transform="translate(228.75 185)">matched cohort</text>
+      </g>
+      <rect id="Rectangle-5-Copy-2" class="cls-7" x="202" y="129" width="75" height="8"/>
+      <rect id="Rectangle-5-Copy-3" class="cls-6" x="277" y="129" width="75" height="8"/>
+    </g>
+    <g id="Box4">
+      <polygon id="Fill-1-4" data-name="Fill-1" class="cls-1" points="407 217 557 217 557 131 407 131 407 217"/>
+      <g id="rivaroxaban-vs.-warf" class="cls-2">
+        <text class="cls-3" transform="translate(435.03 151)">rivaroxaban vs. </text>
+        <text class="cls-3" transform="translate(457.6 168)">warfarin</text>
+        <text class="cls-3" transform="translate(434.25 185)">matched cohort</text>
+      </g>
+      <rect id="Rectangle-5-Copy-4" class="cls-8" x="407" y="129" width="75" height="8"/>
+      <rect id="Rectangle-5-Copy-5" class="cls-6" x="482" y="129" width="75" height="8"/>
+      <g id="n_32_350" data-name="n=32,350" class="cls-2">
+        <text class="cls-4" transform="translate(458.86 208)">n=32,350</text>
+      </g>
+    </g>
+    <g id="Arrows">
+      <path id="Line" class="cls-9" d="M277,76v37" transform="translate(0 -3)"/>
+      <path id="Line-2" data-name="Line" class="cls-9" d="M76,110.29v14" transform="translate(0 -3)"/>
+      <polygon id="Triangle" class="cls-10" points="76 126.72 71 115.72 81 115.72 76 126.72"/>
+      <path id="Line-3" data-name="Line" class="cls-9" d="M277,110.29v14" transform="translate(0 -3)"/>
+      <polygon id="Triangle-2" data-name="Triangle" class="cls-10" points="277 126.72 272 115.72 282 115.72 277 126.72"/>
+      <path id="Line-4" data-name="Line" class="cls-9" d="M479,110.29v14" transform="translate(0 -3)"/>
+      <polygon id="Triangle-3" data-name="Triangle" class="cls-10" points="479 126.72 474 115.72 484 115.72 479 126.72"/>
+      <path id="Line-2-2" data-name="Line-2" class="cls-9" d="M76,110.29H478" transform="translate(0 -3)"/>
+      <g id="One-to-one-propensit" class="cls-2">
+        <text class="cls-4" transform="translate(287 93)">One-to-one propensity-score matching</text>
+      </g>
+    </g>
+  </g>
+  <g id="One-to-one-propensit-2" data-name="One-to-one-propensit" class="cls-2">
+    <text class="cls-3" transform="translate(187.12 21)">Retrospective Cohort<tspan x="131.5" y="0"> </tspan><tspan x="134.63" y="0">Analysis</tspan></text>
+  </g>
+</svg>

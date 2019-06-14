@@ -1,0 +1,189 @@
+.reference_popup_content .noLi {
+	list-style: none !important;
+    margin-left: 20px !important;
+	width: 90% !important;
+    margin-right: 10px !important;
+}
+
+ul#Mini-Nav.TWO {
+    height: 108px;
+   
+}
+ 
+p {
+	font-size: 14px;
+	font-family: 'Helvetica-Light';
+}
+
+.CircleBtn.lGrey, #dot.lGrey {
+	background:#959595;
+}
+
+
+.CircleBtn.BluePurple, #dot.BluePurple {
+	background:#685f9f;
+}
+.CircleBtn.Pink, #dot.Pink {
+	background: #E13AA1;
+}
+.CircleBtn.DPink, #dot.DPink {
+	background: #B72389;
+}
+.CircleBtn.dPurple, #dot.dPurple {
+	background: #521574;
+}
+.CircleBtn.Purple, #dot.Purple {
+	background: #861C81;
+}
+
+.CircleBtn.Purple, #dot.Grey {
+	background: #BDBDBD;
+}
+.CircleBtn.Purple, #dot.royalBlue {
+	background: #3B53C6;
+}
+
+
+
+
+/*
+Commenting this out might be a mistake!
+DOUBLE CHECK with live examples to see if it is ok	
+#OpenMain {
+    display: none;
+    width: 100%;
+    height: 768px;
+    position: absolute;
+}
+
+#OpenMain.SHOW {
+    display: block;
+    z-index: 99;
+}
+*/
+
+
+/*
+might be a mistake REMOVED
+#OpenMain .modal-content {
+    width: 895px;
+    height: 670px;
+    position: relative;
+    margin-top: 55px;
+    padding-top: 26px;
+    background: url('../img/overlay_bg.png') 0 80px / 906px auto no-repeat #ffffff;
+}
+*/
+
+
+
+
+#OpenMain .mainHolder {
+    width: 88%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    position: relative;
+/*
+    height: 100%;
+    overflow: hidden;
+*/
+}
+
+#OpenMain .scrollable {
+    width: 880px;
+    height: 510px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+/*
+#OpenMain .iScrollVerticalScrollbar {
+    background: none;
+}
+*/
+
+
+/*
+#OpenMain .iScrollVerticalScrollbar, #OpenMain .iScrollIndicator {
+    right: 30px;
+}
+*/
+
+.SubHidden {
+    display: none;
+}
+
+.SubHidden.SHOW {
+    display: block;
+}
+
+
+
+.LeftArrow, .RightArrow {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 151px;
+/*background-image: url('../img/LeftArrow.png');  NOTE: PWS background for both left/right arrows is STILL wrong
+	this was after the meeting on Aug 28/2018. I've gone ahead and editted the file, and kept the original in the img folder
+*/
+	background-image: url('../img/LeftArrowEdit.png');
+    background-repeat: no-repeat;
+    background-size: 50px 151px;
+    top: 40%;
+    left:15px;
+    z-index: 1;
+}
+
+.RightArrow {
+    background-image: url('../img/RightArrowEdit.png');
+    right:15px;
+    left: auto;
+}
+
+#OpenMain .cornernote {
+	top: initial;
+    bottom: 25px;
+	right: 25px;
+/*     width: 60%; */
+}
+
+
+
+
+.MoreInfoCarryOver {
+	display: none;
+}
+
+.SHOW .MoreInfoCarryOver, .SELECTED .MoreInfoCarryOver {
+	display: block;
+}
+
+
+
+
+.ManySubs {
+	position: absolute;	
+	bottom: 25px;
+	left: 25px;
+	color: #8A8A8A;
+	font-family: Helvetica;
+	font-size: 10px;
+/* 	font-weight: bold; */
+	line-height: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

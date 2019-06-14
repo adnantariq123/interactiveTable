@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>69E01CD3-DC14-4EDB-8608-DC47D78C7A56</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Style-Guide-and-UI-KIT" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page/All-Assets" transform="translate(-1121.000000, -647.000000)">
+            <g id="Icons---All" transform="translate(74.000000, 632.000000)">
+                <g id="Page-symbols/Page/Template/Icon" transform="translate(1047.000000, 0.000000)">
+                    <rect id="Rectangle-4" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="149" height="149"></rect>
+                    <text id="Icon-name" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="22" fill="#4A4A4A">
+                        <tspan x="0" y="91.2727129">Close</tspan>
+                    </text>
+                    <text id="Note" font-family="Helvetica-Light, Helvetica" font-size="15" font-weight="300" line-spacing="22"></text>
+                    <g id="BMS-UI-Element/Icon/Close" transform="translate(-0.500000, 20.061715)" stroke="#0060A1">
+                        <path d="M13.5,26.25 C20.5416306,26.25 26.25,20.5416306 26.25,13.5 C26.25,9.71966083 24.6047681,6.32358616 21.9912617,3.98873351 C19.7365947,1.97446058 16.7612914,0.75 13.5,0.75 C6.45836944,0.75 0.75,6.45836944 0.75,13.5 C0.75,20.5416306 6.45836944,26.25 13.5,26.25 Z" id="Oval" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd"></path>
+                        <rect id="Rectangle" stroke-width="1.5" transform="translate(13.500000, 13.789773) rotate(-45.000000) translate(-13.500000, -13.789773) " x="12.9204545" y="8.28409091" width="1.15909091" height="11.0113636"></rect>
+                        <rect id="Rectangle" stroke-width="1.5" transform="translate(13.500000, 13.789773) rotate(-315.000000) translate(-13.500000, -13.789773) " x="12.9204545" y="8.28409091" width="1.15909091" height="11.0113636"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

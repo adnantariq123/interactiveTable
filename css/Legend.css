@@ -1,0 +1,1446 @@
+@charset "UTF-8";
+
+
+/* highchart css */
+/*
+.highcharts-legend-item path {
+	display: none;
+}
+.highcharts-legend-item .highcharts-point{
+    display:block !important;
+}
+*/
+
+
+
+
+
+/* CSS Document */
+
+* , *:before, *:after {
+    -webkit-user-select: none;
+    position: relative;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased; 
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2em;
+    color: #717171;
+    margin-bottom: 10px;
+    -webkit-transform: translate3d(0, 0, 0);    
+}
+
+
+h1 {
+    font-size: 22px;
+    font-family: 'HelveticaLTStd-Bold';
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: 'Helvetica-Regular';
+    color: #717171;
+
+}
+
+.modal h2 {
+/* 	font-family: 'HelveticaLTStd-Bold'; */
+	margin-bottom:17px;
+}
+
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 15px;
+}
+
+body {
+    color: #696867;
+}
+
+.iScrollVerticalScrollbar {
+    width:2px;
+	background:#fff;
+	border: none;
+	border-radius:0px;
+}
+
+
+.modal-content .iScrollVerticalScrollbar {
+	right: 40px;
+}
+
+
+.iScrollIndicator {
+	width:4px;
+    background: #245fa0;
+    left: -1px;
+    border: none;
+}
+
+
+main {
+    height: 701px;
+}
+
+main {
+    background-position: center bottom 15px;
+    background-repeat: no-repeat;
+    background-size: 996px auto;
+}
+
+main .content {
+/*     height: 100%; */
+    padding: 0px 65px;
+    position: relative;
+    width: 1024px;
+}
+
+.slide_header {
+    height: 130px;
+    position: relative;
+    display: table;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/*
+.modal-content .slide_header {
+	margin-bottom: 30px;
+}
+*/
+
+.slide_header div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px 100px;
+    -webkit-transform: translate3d(0, 0, 0); 
+}
+
+.slide_header h4 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+
+/*
+.slide_header div h1 {
+    font-size: 26px;
+    font-weight: 400;
+}
+*/
+
+
+.slide_header div h2 {
+    font-size: 16px;
+    font-family: 'Helvetica-Regular';
+}
+
+
+#main-content p {
+    font-size: 14px;
+    font-family: 'Helvetica-Light';
+    color: #717171;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+    -webkit-transform: translate3d(0, 0, 0);    
+}
+
+/*
+main .content h2{
+	font-weight: bold;	
+}
+*/
+
+footer .navigation {
+    background: none;
+    padding-left: 0px;
+}
+
+footer {
+    /* 	background: url("../img/footerImg.png"); */
+/* 	background: url("../img/navbarBG.png"); */
+    background-color: #F8F8F8;
+    background-size: cover;
+    width: 1024px;
+}
+
+main .slide_header div h2 {
+    font-family: 'Helvetica-Light';
+}
+
+footer .navigation .nav_btns .btn {
+    width: 37px;
+    height: 65px;
+    margin-right: 65px;
+    vertical-align: top;
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 37px;
+}
+
+footer .nav_btns .home.btn {
+    background-image: url("../img/_UI-Kit-img/Icons_Home.svg");
+/*margin-left: 100px; Instead of margin 100 , we are usong 95 instead to make the illusion that the home btn is start at 100.. becuase the button is 'padding'*/
+	margin-left: 95px;
+}
+
+footer .nav_btns .search_content.btn {
+    background-image: url("../img/_UI-Kit-img/Icons_TableView.svg");
+}
+
+footer .nav_btns .menue.btn {
+    background-image: url("../img/_UI-Kit-img/Icon_Menu.svg");
+}
+
+/*
+footer .nav_btns .menue.btn.SELECTED {
+    background-image: url("../img/nav_sprite.png") -210px -62px / 600px auto no-repeat;
+}
+*/
+
+footer .nav_btns .Dip {
+    background-image: url("../img/_UI-Kit-img/dip-Center.png");
+    background-repeat: repeat-x;
+    height: 53px;
+    min-width: 40px;
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    margin-left: 100px;
+    position: relative;
+    margin-right:30px;
+}
+
+footer .nav_btns .Dip:before {
+	content: "";
+    background-image: url("../img/_UI-Kit-img/dip-Left.png");
+    background-repeat:no-repeat;
+    height: 53px;
+    width: 100px;
+    display: block;
+    position: absolute;
+    left:-100px;
+    top:0px;
+}
+
+footer .nav_btns .Dip:after {
+	content: "";
+    background-image: url("../img/_UI-Kit-img/dip-Right.png");
+    background-repeat:no-repeat;
+    height: 53px;
+    width: 30px;
+    display: block;
+    position: absolute;
+    right:-30px;
+    top:0px;
+}
+
+
+#text_nav.btn {
+    width: 264px;
+    padding-top: 20px;
+    font-size: 10px;
+    color: rgb(148,148,148);
+    text-align: left;
+    margin-right: 10px;
+}
+#text_nav.btn p {
+	font-size: 10px;
+}
+
+#reference.btn {
+    background-image: url("../img/_UI-Kit-img/Icons_Reference.svg");
+    background-size: 33px;
+    margin-right: 40px;
+    height: 53px;    
+}
+
+/*above code is to adjust global css*/
+
+@font-face {
+    font-family: 'Helvetica-Regular';
+    src: url('../fonts/Helvetica.otf');
+}
+
+@font-face {
+    font-family: 'Helvetica-Light';
+    src: url('../fonts/HelveticaLTPro-Light.otf');
+}
+
+@font-face {
+    font-family: 'Helvetica LT Pro';
+    src: url('../fonts/HelveticaLTPro-Light.otf');
+}
+
+@font-face {
+    font-family: 'HelveticaLTStd-Bold';
+    src: url('../fonts/HelveticaLTStd-Bold.otf');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-medium';
+    src: url('../fonts/HelveticaNeueLTStd-Md.otf');
+}
+
+/*LeftPanel - left side panel*/
+
+
+.floatLeftBox {
+    width: 375px;
+    display: inline-block;
+    font-size: 17px;
+    font-family: 'Helvetica-Light';
+    /*color: #0060a1;*/
+    margin-left: 40px;
+    vertical-align: text-top;
+    float: left;
+}
+
+.floatLeftBox p {
+    line-height: 1.3em;
+}
+
+.LeftPanel {
+    border-radius: 15px;
+    background: #e9eff2;
+    position: absolute;
+    left: 20px;
+    top: 160px;
+    width: 125px;
+    min-height: 5px;
+    z-index: 20;
+}
+
+.Second.LeftPanel {
+    top: 330px;
+    display: none;	
+}
+
+.Second.LeftPanel.SELECTED{
+	display: block;
+}
+
+
+.LeftPanel .LeftBtn, .LeftPanel .GroupBtn {
+    /*
+  border-style: solid;
+  border-width: 1px;
+  border-color:#f2f2f2;
+*/
+    width: 125px;
+    height: 35px;
+	font-family: 'Helvetica-Regular';
+    color: #0868AC;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 12px;
+    margin-bottom: 10px;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	
+
+}
+.LeftPanel .LeftBtn.sm, .LeftPanel .GroupBtn.sm {
+	font-size: 10px;
+	min-height: 35px;
+	height: auto;
+}
+
+.LeftPanel .LeftBtn:last-child, .LeftPanel .GroupBtn:last-child {
+    margin-bottom:0px;	
+	}
+	
+
+.LeftPanel .LeftBtn .txt, .LeftPanel .GroupBtn .txt {
+    line-height: 1.3em;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Helvetica-Regular';
+}
+
+.LeftPanel .LeftBtn.SELECTED, .LeftPanel .GroupBtn.SELECTED  {
+    /*   border-color:#d0d0d0;; */
+    background-color: #005697;
+    color: #fff;
+}
+
+/*tabs for LeftPanel*/
+
+.tabs {
+    width: 1024px;
+    position: absolute;
+    height: 701px;
+    left: 0px;
+    top: 0px;
+}
+
+.tabs .tab {
+    display: none;
+    -webkit-transform: translate3d(0, 0, 0);
+    width: 1024px;
+    height: 100%;
+
+}
+
+.tabs .tab.SELECTED {
+    display: block;
+}
+
+.tabContent {
+    left:174px;
+    top:160px;
+    width:785px;
+    height: 480px;
+    position: absolute;	
+}
+
+/*all that legendary shiz*/
+
+.Legend_Container {
+    width: 100%;
+    margin: 0em auto;
+    /*height added due to absolute positing added*/
+    height: 580px;
+    position: relative;
+}
+
+.Legend_Container .title {
+    font-size: 17px;
+    color: #0060a1;
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    font-family: 'Helvetica-Light';
+    width: 225px;
+    text-align: center;
+}
+
+.Legend_Container .title.one {
+    left: 248px;
+}
+
+.Legend_Container .title.two {
+    left: 560px;
+}
+
+.Legend_Container .svg, .svgBackground {
+    width: 603px;/*width can be adjusted to match/updated the graphic*/
+    margin: 0px auto;
+    display: block;
+    height: auto;
+    -webkit-transform: translate3d(0, 0, 0);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.CenterMe {
+    position: relative;
+    margin: 0px auto;
+    display: block;
+    height: auto;
+}
+
+.StudyDesign img.CenterMe {
+	margin-bottom: 15px;
+	width: 750px;
+	margin-top:25px;
+}
+
+.content img.CenterMe, .tabContent img {
+	width: 800px;
+	margin-bottom: 20px;
+ 	margin-top: -25px;
+}
+
+/*
+.tabContent img {
+	width: 90%;
+}
+*/
+
+.assetFloat.Right {
+	float: right;
+	margin-left:50px;
+	margin-bottom: 75px;
+}
+.assetFloat.Left {
+	float: left;
+	margin-right: 25px;
+}
+
+.assetFloat .chartTitle {
+	margin-top: -20px;
+	margin-bottom:5px;
+}
+
+.Legend_Container .svg.split .SELECTED {
+    display: block !important;
+}
+
+.Legend_button {
+/*
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    background-color: #fff;
+*/
+    position: relative;
+    width: 800px;
+    height: 38px;
+    margin: 0px auto;
+/*
+    -webkit-border-radius: 38px;
+    -moz-border-radius: 38px;
+*/
+    border-radius: 38px;
+    line-height: 34px;
+    padding: 0px 10px;
+    font-family: 'Helvetica-Regular';
+    min-width: 150px;
+    text-align: center;
+    /*margin-bottom: 1.5em;*/
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 378px;
+}
+
+.Legend_button.clickable {
+/*     box-shadow: 0px 6px 0px 0px #f7f7f7; */
+    cursor: pointer;
+}
+
+.Legend_button .btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+	margin-right: 15px;
+    margin-left: 0px;    
+}
+
+.Legend_button .spacer {
+    width: 25px;
+    display: inline-block;
+}
+
+.Legend_button .btn .txt {
+    display: inline-block;
+    color: #8a8a8a;
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.btn #dot {
+    display: inline-block;
+    margin-right: 1px;
+    width: 9px;
+    height: 9px;
+    background: #cbcbcb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+/*ChartInteractives*/
+
+.ChartInteractives {
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    position: relative;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 442px;
+}
+
+.ChartInteractives div {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ChartInteractives .PillBtn, .PillBtn {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0868AC;
+    background-color: #fff;
+    width: 125px;
+    min-height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    line-height: 50px;
+    color: #0868AC;
+    text-align: center;
+}
+
+.PillBtn.Adapted, .PillBtn.Original {
+    width: 195px;
+    left: 25px;
+}
+
+.ChartInteractives .PillBtn.SELECTED {
+    color: #8e8e8e;
+    box-shadow: inset 0px 6px 0px 0px #f7f7f7;
+}
+
+.ChartInteractives .text {
+    color: #9f9f9f;
+    font-size: 12px;
+    font-family: 'Helvetica-Regular';
+    width: 125px;
+    letter-spacing: 0.4px;
+    left: -3px;/*top: 3px;*/
+}
+
+.ChartInteractives .RadioCheckBox {
+    background: url("../img/RadioCheckBox.png") no-repeat;
+    background-size: auto 44px;
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+    line-height: 42px;
+}
+
+/* .RadioCheckBox.twice */
+.ChartInteractives .RadioCheckBox.twice {
+    width: 100px;
+}
+
+.ChartInteractives .RadioCheckBox.twice .RadioBtn:nth-child(1) {
+    left: -9px;
+}
+
+.ChartInteractives .RadioCheckBox.twice .RadioBtn:nth-child(2) {
+    right: -9px;
+}
+
+/* .RadioCheckBox.third */
+.ChartInteractives .RadioCheckBox.third {
+    width: 156px;
+}
+
+.ChartInteractives .RadioCheckBox.third .RadioBtn:nth-child(1) {
+    left: -18px;
+}
+
+.ChartInteractives .RadioCheckBox.third .RadioBtn:nth-child(3) {
+    right: -18px;
+}
+
+.ChartInteractives .RadioCheckBox .RadioBtn {
+    background-color: #fff;
+    width: 34px;
+    height: 34px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.ChartInteractives .RadioCheckBox .RadioBtn.VISITED {
+    background-color: #e5eff5;
+}
+
+.ChartInteractives .RadioCheckBox .RadioBtn.ACTIVE {
+    background-color: #0060a1;
+}
+
+.ChartInteractives .RadioCheckBox .RadioBtn.StayWhite {
+    background-color: #ffffff;
+}
+
+/*BOTTOM - Legend_Panel*/
+
+.Legend_Panel {
+    position: absolute;
+    /*bottom:-153px;*/
+    bottom: -220px;
+    height: 198px;
+    width: 1024px;
+    background: url("../img/Legend_Panel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+    text-align: center;
+}
+
+.Legend_Panel .container {
+    text-align: center;
+    margin: 15px 25px 0px 25px;
+    display: inline-block;
+    position: relative;
+}
+
+.Legend_Panel .PanelBtn {
+    background: url("../img/PanelBtn.png");
+    background-repeat: no-repeat;
+    background-size: 72px 20px;
+    width: 72px;
+    height: 20px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -36px;
+    cursor: pointer;
+}
+
+.Legend_Panel section {
+    display: inline-block;
+    width: 75px;
+    height: 170px;
+    vertical-align: top;
+    position: relative;
+}
+
+.Legend_Panel section .title {
+    /*font-family: 'Helvetica-Light';*/
+    font-family: 'Helvetica-Regular';
+    color: #1b5783;
+    margin-bottom: 10px;
+    line-height: 1.1em;
+}
+
+.Legend_Panel section .CircleBtn {
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+    position: absolute;
+    top: 42px;
+    left: 50%;
+    margin-left: -22px;
+}
+
+.Legend_Panel section .footValue {
+    font-size: 12px;
+    color: #8a8a8a;
+    font-family: 'Helvetica-Regular';
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.Legend_Panel .barLine {
+    width: 350px;
+    height: 25px;
+    position: absolute;
+    left: 197px;
+    top: 107px;
+    margin-left: -175px;
+    background-image: url("../img/BarLine1.png");
+    background-size: 350px 5px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.Legend_Panel .barLine.two {
+    background-image: url("../img/BarLine2.png");
+}
+
+/*PURPOSELY added seperatly to avoid conflict*/
+.CircleBtn {
+    background: #cbcbcb;
+}
+
+.overlay_open_btn {
+background-image: url(../img/_UI-Kit-img/PageNav_closed.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 19px;
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 7px;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+    position: absolute;
+    right: 16px;
+    top: 11px;
+}
+
+.RightPanel {
+    border: 0.5px solid #ccc;
+    width: 155px;
+    min-height: 55px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    right:20px;
+    z-index: 40;
+}
+
+.RightPanel .Head {
+    color: #0060a1;
+    font-size: 17px;
+    height: 42px;
+    border-bottom: 0.5px solid #ccc;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 42px;
+}
+
+.RightPanel .Head .short {
+    font-size: 13px;
+}
+
+.RightPanel .bodySection {
+    color: #8a8a8a;
+    font-size: 13px;
+    padding: 20px 10px;
+}
+
+.RightPanel .bodySection ul {
+    list-style: disc;
+    margin-left: 19px;
+    font-size: 11px;
+    color: #949494;
+    font-family:'Helvetica-Regular';
+}
+
+.RightPanel .bodySection ul li {
+    margin-bottom: 8px;
+
+}
+
+.RightPanel .bodySection ul li:last-child {
+	margin-bottom: 0px;
+}
+
+/*
+.RightPanel .bodySection ul li:nth-child(2){
+	margin-bottom: 13px;
+}
+*/
+#dot.lGreen, .CircleBtn.lGreen {
+    background: #73C774;
+}
+
+#dot.DGreen, .CircleBtn.DGreen {
+    background: #23BDAA;
+}
+
+#dot.lBlue, .CircleBtn.lBlue {
+    background: #43a2ca;
+}
+
+#dot.DBlue, .CircleBtn.DBlue {
+    background: #0868ac;
+}
+
+#dot.lOrange, .CircleBtn.lOrange {
+    background: #F29A7B;
+}
+
+#dot.DOrange, .CircleBtn.DOrange {
+    background: #ea6a5c;
+}
+
+#dot.lRed, .CircleBtn.lRed {
+    background: #ca171d;
+}
+
+#dot.DRed, .CircleBtn.DRed {
+    background: #67000d;
+}
+
+.CircleBtn.DGrey, #dot.DGrey {
+    background: #7f7f7f;
+}
+
+.CircleBtn.DPurple, #dot.DPurple {
+    background: #92278f;
+}
+
+.CircleBtn.DYellow, #dot.DYellow {
+    background: #fed976;
+}
+
+.cornernote {
+    font-family: 'Helvetica-light';
+    font-size: 9px;
+    color: #949494;
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    bottom: 3px;
+/*     width: 350px; */
+}
+
+.chartNotes{
+	font-family: 'Helvetica-light';
+    font-size: 9px;
+    color: #949494;
+	position: relative;
+	padding-top: 10px;
+	text-align: left;
+	width: auto;
+	line-height: 11px;
+}
+
+
+
+/*  Adjust Agree Overlay  */
+
+ul.bullet.green li:before {
+    color: #71c9c1;
+}
+
+ul.bullet.darkBlu li:before {
+    color: #003d66;
+}
+
+.bullet li:before {
+    margin-right: 10px;
+    font-size: 1em;
+    content: "•"; 
+    color: #0868AC;   
+}
+
+.ul_sub-list li:before {
+    color: #7fafd0; 	
+}
+
+.ul_list {
+     margin-top: 15px;
+    padding-right: 25px;
+}
+
+p + .ul_list {
+	margin-top: -15px;
+}
+
+
+.modal .ul_list {
+	margin-top: auto;
+	margin-bottom:28px;
+	
+}
+
+.furtherInfo_content .ul_list li {
+    margin-bottom: 8px;
+    
+}
+
+.ul_list li {
+    padding-left:16px;
+    text-indent: -16px;
+    font-size: 14px;
+    font-family: 'Helvetica-Light';
+    margin-bottom: 6px;
+    color: #717171;
+    line-height: 1.3em;
+    -webkit-transform: translate3d(0, 0, 0);    
+}
+
+#main-content .ul_list li:last-child {
+	margin-bottom: 0px;
+	
+}
+
+.modal .ul_list li {
+    font-size: 16px;
+    margin-bottom: 15px;	
+}
+
+
+.ul_sub-list {
+    padding-right: 30px;
+    margin-left: 22px;
+}
+
+.abbr_group {
+	margin-bottom: 20px;
+}
+
+.abbr_group li, .LongRef {
+	font-size: 16px;
+    line-height: 1.2em;
+    margin-bottom: 8px;	
+    font-family: 'Helvetica-Light';
+}
+/*
+.LongRef li {
+	margin-left: 16px;
+}
+*/
+.LongRef li, .cornernote li {
+	list-style-type: decimal;
+	list-style: decimal inside none;
+	margin-bottom: 2px;
+}
+
+.modal-content .LongRef li {
+	margin-bottom: 8px;
+}
+
+.further_info .ul_sub-list li {
+    text-indent: -18px;
+}
+
+.chart_notes {
+    font-size: 12px;
+    color: #696969;
+    font-family: 'Helvetica-Light';
+}
+
+.chart_notes.refs {
+    margin-top: 15px;
+}
+
+/* code for the further info overlays ONLY*/
+.info_btn {
+    background-image: url("../img/_UI-Kit-img/Icons_Information.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 33px;
+    width:37px;
+    height: 53px;
+    display: none;
+    cursor: pointer;
+    z-index: 2;
+/*     margin-right: 40px; */
+}
+
+/* .further_info .modal-content { */
+.modal-content {
+    width: 897px;
+    height: 670px;
+    border:0.5px solid #c2c2c2;
+    overflow: hidden;
+/*     might be a mistake commentiing out relative... now using absolute instead */
+/*     position: relative; */
+/*     background: url('../img/overlay_bg.png') 0 80px / 906px auto no-repeat #ffffff; */
+}
+
+
+.furtherInfo_content .MoreInfoCarryOver > div {
+    display: none;
+}
+.furtherInfo_content .MoreInfoCarryOver > div.SELECTED {
+    display: block;
+}
+
+
+.further_info .furtherInfo_content.SELECTED {
+    display: block;
+    z-index: 99;
+}
+
+
+
+
+.further_info .furtherInfo_content, .study_content {
+/*     width: 810px; */
+	width: 775px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.further_info .furtherInfo_content h3, .further_info .furtherInfo_content h4, .study_content h3, .study_content h4 {
+    font-size: 16px;
+    margin: 15px 0 5px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+/*     color: #003d66; */
+}
+
+.further_info .furtherInfo_content p {
+    font-size: 16px;
+    font-family: 'Helvetica-Light';
+    line-height: 1.35em;
+    color: #717171;
+}
+
+/*	.further_info .furtherInfo_content h4 {
+		margin: 20px 0 10px;
+		font-family:'Helvetica';
+		font-weight: bold;
+	}*/
+.further_info .furtherInfo_footnote li {
+    list-style: decimal;
+    margin-left: 16px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-family: 'Helvetica-Light';
+}
+
+.furtherUL {
+    list-style: initial;
+    margin-left: 16px;
+    font-family: 'Helvetica-Light';
+}
+
+/* Safety btn*/
+
+
+
+
+.Safety_btn {
+    background-image: url("../img/_UI-Kit-img/Icons_Safety.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 33px;
+    width: 37px;
+    height: 53px;
+/*     display: none; */
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 40px;
+}
+
+/* Ryan's crappy crappy stuff*/
+
+.eular_dots {
+    position: absolute;
+    width: 190px;
+    height: 19px;
+    left: 2px;
+    bottom: 2px;
+    text-align: left;
+    z-index: 3;
+
+}
+
+.PageNav_closed {
+    background-image: url("../img/_UI-Kit-img/PageNav_closed.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 19px;
+	width: 19px;
+    height: 19px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+
+#EULAR_btn .eular_dots .nav_text {
+    font-family: 'Helvetica';
+    margin-bottom: 0;
+    color: #0060a1;
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav_text .greySpanner {
+	color:#8A8A8A;
+	margin-left: 15px;
+	position: relative;
+	display: inline-block;
+ }
+#CurrentSlide {
+	font-weight: bold;
+}
+ 
+.nav_text .greySpanner:before {
+	content:"";
+	background: #8A8A8A;
+	position: absolute;
+	left: -10px;
+	top:1px;
+	width:0.5px;
+	height: 13px;
+ }
+
+
+/*
+.eular_dots {
+	display: none;
+}
+*/
+#EULAR_btn .eular_dots ul {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#EULAR_btn .eular_dots ul li {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: rgb(217, 217, 217);
+    display: inline-block;
+}
+
+/*
+#EULAR_btn .eular_dots ul li:nth-child(n+2) {
+	margin-left: 1px;
+}
+*/
+#EULAR_btn .eular_dots ul li {
+    margin-left: 4px;
+}
+
+#EULAR_btn .eular_dots ul li.active {
+    background: #808080;
+}
+
+
+
+
+
+ul#Mini-Nav {
+    width: 190px;
+/* ¯\_(ツ)_/¯ changed height from 147 to 153... why need to account for 3 borders + 4 li tags each 35px 
+	but the fucking maths does not add up so.... ¯\_(ツ)_/¯*/    
+    height: 151px; 
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: -182px;
+/*     background: #ffffff; */
+    transition: bottom .5s ease-out;
+    margin-bottom:23px;
+-webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+border-bottom-right-radius: 10px;
+z-index: 5;    
+
+}
+
+.masked {
+	bottom: 0px;
+	height: 130px;
+	background: green;
+-webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+border-bottom-right-radius: 10px; 	
+}
+
+
+
+ul#Mini-Nav.SHOW {
+/* 	needs to be 0 so to display first value... or not  1+ 1 +1 = 3 (border) ...or not*/
+    bottom:0px;
+}
+
+#EULAR_btn {
+    width: 190px;
+    height: 174px;
+    overflow: hidden;
+    position: absolute;
+    left: 22px;
+    bottom:0px;
+    z-index: 50;
+/*     -webkit-border-radius: 15px; */
+	-webkit-border-bottom-left-radius: 0;
+/* 	-moz-border-radius: 15px; */
+	-moz-border-radius-bottomleft: 0;
+/* 	border-radius: 15px; */
+	border-bottom-left-radius: 0;  
+/* 	background: red;   */
+}
+
+
+
+ul#Mini-Nav li {
+    display: table;
+    width: 100%;
+    height:35px;
+    line-height: 35px;
+    background-color: #ECF1F4;    
+}
+ul#Mini-Nav li:first-child {
+-webkit-border-top-left-radius: 15px;
+-webkit-border-top-right-radius: 15px;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-topright: 15px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;	
+}
+
+ul#Mini-Nav li.SELECTED {
+	background: #d4e2eb;
+}
+
+ul#Mini-Nav li p {
+    font-size: 12px;
+    color: #0060A1;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'HelveticaLTStd-Bold';
+    padding-left: 15px;
+    margin: 0
+
+}
+
+ul#Mini-Nav li:nth-child(n+2) {
+    border-top: 1px solid #fff;
+}
+
+.disArt {
+	height: 23px;
+	width: 23px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background-color: #ECF1F4;
+	-webkit-border-bottom-right-radius: 7px;
+-webkit-border-bottom-left-radius: 7px;
+-moz-border-radius-bottomright: 7px;
+-moz-border-radius-bottomleft: 7px;
+border-bottom-right-radius: 7px;
+border-bottom-left-radius: 7px;
+z-index: 10;
+margin-right: 5px;
+display: none;
+}
+
+.disArt:before {
+	height: 23px;
+	width:7px;
+	background:#ECF1F4;
+	content: "";
+	position: absolute;
+	top:0px;
+	right:-7px;	
+}
+
+.disArt:after {
+	height: 23px;
+	width:7px;
+	background: #fff;
+	content: "";
+	position: absolute;
+	top:0px;
+	right:-7px;
+-webkit-border-top-left-radius: 10px;
+-moz-border-radius-topleft: 10px;
+border-top-left-radius: 10px;		
+	}
+
+.disArt.SHOW {
+	display: block;
+}
+
+.disArt_Arrow {
+    background-image: url(../img/_UI-Kit-img/disArt_Arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 19px;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    left: 2px;
+    top: 3px;    
+}
+
+/*
+ul#Mini-Nav li.active {
+    background: #0060a1;
+}
+
+ul#Mini-Nav li.active p {
+    color: #ffffff;
+}
+*/
+
+/* STD-TableSkin */
+.STD-TableSkin {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 96%;
+    margin: 10px auto;
+    margin-top: 0px;
+}
+
+.STD-TableSkin caption {
+    font-size: 18px;
+    font-family: 'Helvetica-Regular';
+    margin-bottom: 10px;
+}
+
+.STD-TableSkin thead {
+    background: #0060a1;
+    color: #fff;
+}
+
+.STD-TableSkin td, .STD-TableSkin th, .STD-TableSkin td {
+    text-align: center;
+    vertical-align: middle;
+    padding:4px;
+    border: 0.5px solid #c2c2c2;
+}
+
+.STD-TableSkin thead td, .STD-TableSkin thead th {
+    height: 42px;
+    font-family: 'Helvetica-Light';
+    font-size: 14px;
+}
+
+.STD-TableSkin thead td:first-child {
+    border-left: 1px solid #CCCBCB;
+}
+
+.STD-TableSkin thead td:last-child {
+    border-right: 1px solid #CCCBCB;
+}
+
+.STD-TableSkin tbody {
+    background: #fff;
+}
+
+.STD-TableSkin td {
+    color: #777;
+    font-size: 12px;
+}
+
+.STD-TableSkin td:first-child {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.TableBlue {
+    background: #00a2cc;
+    color: #fff !important;
+}
+
+.TableGrey {
+    background: #717171;
+    color: #fff !important;
+}
+
+.STD-TableSkin.FourCell td {
+    width: 20%;
+}
+
+.STD-TableSkin.FourCell td:first-child {
+    width: 40%;
+}
+
+.STD-TableSkin.ThreeCell td {
+    width: 40%;
+}
+
+.STD-TableSkin.ThreeCell td:first-child {
+    width: 60%;
+}

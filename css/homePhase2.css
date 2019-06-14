@@ -1,0 +1,40 @@
+
+/* added due to AOR and Client Request: IMPROVE STYLING content is squished on top, does not look neat. Also request to bumb up the font size.  */
+
+.default .scrollable .scroller {
+	margin-top: 25px;
+}
+.default h3 {
+	 margin-bottom: 10px;
+	 font-size: 20px;
+
+}
+
+.default .modal-content .ul_list li {
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.default .modal-content .ul_list li li {
+	margin-bottom: 5px;
+}
+
+.default img {
+	margin-bottom: 10px;
+}
+
+.default .chart_notes, .default .greyNote {
+	margin-top: -8px;
+}
+
+.default .chart_notes.refs {
+	margin-top:2px;
+}
+
+.default .chart_notes.PE {
+	margin-top: 0px;
+    margin-bottom: 10px;
+}
+.default .modal-content .ul_list li b {
+	font-family: 'Helvetica-Regular';
+}

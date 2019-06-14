@@ -1,0 +1,214 @@
+.forrestScroll {
+	height: 380px;
+	margin-bottom: 10px;
+	padding-right: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.forrestScroll > div {
+	padding-bottom: 10px;
+}
+table.forest {
+	width: 100%;
+	margin: 0 0 30px 0;
+}
+table.forest thead th,  table.forest tbody td {
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+table.forest thead th {
+	border-bottom: 1px solid #cccbcb;
+	font-size: 10px;
+	font-weight: 700;
+	height: 18px;
+	vertical-align: middle;
+}
+table.forest thead th.empty {
+	border-bottom: none;
+}
+
+table.forest tbody td {
+	font-size: 12px;
+	line-height: 0px;
+	padding: 0 7px;
+	font-weight: 300;
+	box-sizing: border-box;
+	white-space: pre-wrap;
+}
+table.forest thead th span {
+	display: block;
+	font-size: 10px;
+}
+table.forest thead th.first, table.forest thead th:first-child {
+	text-align: left;
+	font-weight: 700;
+}
+table.forest thead th.agent {
+	width: 148px;
+	border-top: 1px solid #cccbcb;
+	border-bottom: 1px solid #ffffff;
+}
+table.forest thead th.rivaroxaban {
+	background: #fdd263;
+}
+table.forest thead th.dabigatran {
+	background: #24b29a;
+	color: #fff;
+}
+table.forest thead th.warfarin {
+	background: #959697;
+	color: #fff;
+}
+table.forest thead th.apixaban {
+	background: #43a2ca;
+	color: #fff;
+}
+table.forest thead th.outerLeft {
+	border-left: 1px solid #cccbcb;
+	border-right: 1px solid #ffffff;
+}
+table.forest thead th.outerRight {
+	border-right: 1px solid #cccbcb;
+	border-left: 1px solid #ffffff;
+}
+table.forest thead th.inner {
+	border-right: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+}
+table.forest tbody tr.overall td {
+	border-bottom: 1px solid #cccbcb;
+}
+table.forest tbody td.bl {
+	border-left: 1px solid #cccbcb;
+}
+table.forest tbody td.br {
+	border-right: 1px solid #cccbcb;
+}
+table.forest tbody td.data {
+	text-align: center;
+}
+table.forest td.ageOverall {
+	padding-left: 4px;
+	font-weight: 400;
+}
+table.forest td.age {
+	padding-left: 20px;
+	font-weight: 400;
+}
+table.forest td.chart {
+	width: 180px;
+	height: 20px;
+	white-space: nowrap;
+	padding: 0px;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+table.forest td.bottom {
+	border-top: 1px solid #cccbcb;
+	padding: 0;
+}
+table.forest td.chart_footer {
+	width: 180px;
+	padding: 0px;
+	
+	vertical-align: top;
+	position: relative;
+}
+table.forest td.chart div,  table.forest td.chart_footer div.footer {
+	width: 174px;
+	position: static;
+}
+table.forest td.chart_footer div {
+	margin-top: -4px;
+}
+table.forest td.chart_footer .highcharts-xaxis {
+	width: 100%;
+}
+table.forest td.chart_footer .highcharts-axis-title {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	
+}
+table.forest td.chart_footer .highcharts-axis-title span {
+	font-size: 8px;
+	font-weight: 300;
+	white-space: nowrap;
+	margin-top: 5px;
+}
+table.forest td.chart_footer .highcharts-axis-title span:last-child {
+	text-align: right;
+}
+#main-content .limitations {
+	border: 1px solid #C2C2C2;
+	padding: 8px;
+	border-radius: 4px;
+	left:174px;
+    bottom: 36px;
+    width:785px;
+    position: absolute;
+}
+#main-content .limitations ul {
+	list-style: disc;
+	margin-left: 15px;
+	padding: 0;
+	display: none;
+}
+#main-content .limitations ul.SELECTED {
+	display:  block;
+}
+#main-content .limitations h2, #main-content .limitations h3, #main-content .limitations p, #main-content .limitations ul li {
+	font-size: 9px;
+	margin-bottom: 4px;
+}
+.chartDiv {
+	width: 722px;
+	height: 360px;
+	margin-left: 47px;
+	position: static;
+}
+.chartFooter {
+	position: relative;
+	top: -10px;
+}
+.chartFooter table {
+	/*width: 754px;*/
+	font-size: 9px;
+	margin-bottom: 10px;
+}
+.chartFooter table caption {
+	text-align: left;
+	font-weight: 700;
+}
+.chartFooter table tbody th {
+	text-align: left;
+	width: 86px;
+	height: 14px;
+	padding: 0 0 0 14px;
+	vertical-align: middle;
+	font-weight: 400;
+}
+.Apixaban_Legend {
+	background: url(../img/legend_icons/apixaban_legend.svg) no-repeat center left;
+	background-size: 9px;
+}
+.Dabigatran_Legend {
+	background: url(../img/legend_icons/dabigatran_legend.svg) no-repeat center left;
+	background-size: 9px;
+}
+.Rivaroxaban_Legend {
+	background: url(../img/legend_icons/rivaroxaban_legend.svg) no-repeat center left;
+	background-size: 9px;
+}
+.Warfarin_Legend {
+	background: url(../img/legend_icons/warfarin_legend.svg) no-repeat center left;
+	background-size: 9px;
+}
+
+.chartFooter table tbody td {
+	width: 148px;
+	height: 14px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0;
+}
