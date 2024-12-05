@@ -87,6 +87,8 @@ small {
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: 1024px auto;
+	margin: 0px auto;
+	border: 1px solid black;
 }
 
 main {
